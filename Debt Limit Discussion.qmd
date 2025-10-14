@@ -1,0 +1,78 @@
+---
+title: "Debt Limit Discussion"
+author: "Wilhelm"
+format: html
+editor: visual
+jupyter: python3
+---
+
+## Public Debt Limit
+
+Why have a debt ceiling?
+
+-   Existed since founding of US federal government
+-   Congressional artifact that frequently gets surpassed and muddies budget negotiations
+-   Doesn't constrain spending
+
+Why does it still persist?
+
+![Jimmy B](jimmy%20g.png){fig-align="center" width="50%"}
+
+<u>Interest Groups</u>
+
+-   Particularly those with a vested interest in limiting the growth of future tax revenues
+-   What are some other long-lived organizations who would want to limit the amount of future capital value the government could expropriate?
+    -   Businesses
+    -   Corporations
+    -   Senior citizens?
+    -   Domestic or Foreign?
+
+## **Who are these interest groups?**
+
+### Lobbying Disclosure Act
+
+[REST API](https://lda.senate.gov/api/redoc/v1/) compiles all documents filed under the [Lobbying Disclosure Act of 1995](https://www.govinfo.gov/content/pkg/STATUTE-109/pdf/STATUTE-109-Pg691.pdf) related to lobbying activities in the US House or Senate.
+
+Here is guidance on [Filing Requirements](https://lda.congress.gov/LD/help/default.htm?turl=Documents%2FIntroduction.htm)
+
+Here is a list of [Lobbying Issue Codes](https://lda.congress.gov/LD/help/default.htm?turl=Documents%2FAppCodes.htm) to help narrow and search related lobbying activities.
+
+[REST API Documentation](https://lda.senate.gov/api/redoc/v1/)
+
+### Public Debt
+
+```{python, eval=false}
+params = {
+  'filing_specific_lobbying_issues': "public debt",
+  'filing_year': ['2008', '2009']
+}
+```
+
+**Executable Code Below**
+
+```{python}
+import lda_query
+```
+
+[View LDA results](lda_results.json)
+
+### Debt Ceiling
+
+```{python, eval=false}
+params1 = {
+    'filing_specific_lobbying_issues': ["debt limit", "debt ceiling"],
+    'filing_year': ['2008','2009']
+}
+
+# Query 2: Search in description
+params2 = {
+    'description': ["debt limit", "debt ceiling"],
+    'filing_year': ['2008','2009']
+}
+```
+
+```{python}
+import lda_query3
+```
+
+[View LDA results](lda_results3.json)
