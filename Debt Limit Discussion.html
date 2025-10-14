@@ -111,7 +111,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Why have a debt ceiling?</p>
 <ul>
 <li>Existed since founding of US federal government</li>
-<li>Congressional artifact that frequently gets surpassed and muddies budget negotiations</li>
+<li>Congressional artifact that frequently gets raised</li>
+<li>Often muddies budget negotiations</li>
 <li>Doesn’t constrain spending</li>
 </ul>
 <p>Why does it still persist?</p>
@@ -126,10 +127,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Particularly those with a vested interest in limiting the growth of future tax revenues</li>
 <li>What are some other long-lived organizations who would want to limit the amount of future capital value the government could expropriate?
 <ul>
-<li>Businesses</li>
+<li>Businesses
+<ul>
+<li>Small/Large?</li>
+</ul></li>
 <li>Corporations</li>
+<li>Future Generations
+<ul>
 <li>Senior citizens?</li>
-<li>Domestic or Foreign?</li>
+</ul></li>
+<li>Domestic or Foreign</li>
 </ul></li>
 </ul>
 </section>
@@ -142,16 +149,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Here is a list of <a href="https://lda.congress.gov/LD/help/default.htm?turl=Documents%2FAppCodes.htm">Lobbying Issue Codes</a> to help narrow and search related lobbying activities.</p>
 <p><a href="https://lda.senate.gov/api/redoc/v1/">REST API Documentation</a></p>
 </section>
+</section>
+<section id="examples" class="level2">
+<h2 class="anchored" data-anchor-id="examples">Examples</h2>
+<p><a href="https://lda.senate.gov/filings/public/filing/ff9e00a4-31f6-4647-a1c1-17375690a48a/print/">Entitlement Protection Orgs</a></p>
+<p><a href="https://lda.senate.gov/filings/public/filing/bbeeedf7-14ec-47de-91fa-07380d2bb851/print/">Chamber of Commerce</a></p>
+<p><a href="https://lda.senate.gov/filings/public/filing/a544ae3b-6fb6-41ad-ae15-cecf1f6f77e0/print/">AFL-CIO</a></p>
+<p><a href="https://lda.senate.gov/filings/public/filing/2ad5a568-ff84-492c-b175-9be5df618e7e/print/">oddball secret orgs</a></p>
 <section id="public-debt" class="level3">
 <h3 class="anchored" data-anchor-id="public-debt">Public Debt</h3>
-<div id="2eb9ae71" class="cell" data-execution_count="1">
+<div id="85ef177e" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>params <span class="op">=</span> {</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">'filing_specific_lobbying_issues'</span>: <span class="st">"public debt"</span>,</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">'filing_year'</span>: [<span class="st">'2008'</span>, <span class="st">'2009'</span>]</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p><strong>Executable Code Below</strong></p>
-<div id="66a8e573" class="cell" data-execution_count="2">
+<div id="a9e9c63f" class="cell" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> lda_query</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Total results: 48
@@ -317,7 +331,7 @@ Full results saved to 'lda_results.json'</code></pre>
 </section>
 <section id="debt-ceiling" class="level3">
 <h3 class="anchored" data-anchor-id="debt-ceiling">Debt Ceiling</h3>
-<div id="e76abc34" class="cell" data-execution_count="3">
+<div id="c667c701" class="cell" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>params1 <span class="op">=</span> {</span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">'filing_specific_lobbying_issues'</span>: [<span class="st">"debt limit"</span>, <span class="st">"debt ceiling"</span>],</span>
 <span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'filing_year'</span>: [<span class="st">'2008'</span>,<span class="st">'2009'</span>]</span>
@@ -329,7 +343,7 @@ Full results saved to 'lda_results.json'</code></pre>
 <span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">'filing_year'</span>: [<span class="st">'2008'</span>,<span class="st">'2009'</span>]</span>
 <span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<div id="adfa498d" class="cell" data-execution_count="4">
+<div id="16f5d32e" class="cell" data-execution_count="4">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> lda_query3</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>Total unique results: 32
