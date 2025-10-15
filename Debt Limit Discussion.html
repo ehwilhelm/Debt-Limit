@@ -158,17 +158,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><a href="https://lda.senate.gov/filings/public/filing/2ad5a568-ff84-492c-b175-9be5df618e7e/print/">oddball secret orgs</a></p>
 <section id="search-term-public-debt" class="level3">
 <h3 class="anchored" data-anchor-id="search-term-public-debt">Search Term: “Public Debt”</h3>
-<div id="a9184b22" class="cell" data-execution_count="1">
+<div id="51e8131d" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>params <span class="op">=</span> {</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="st">'filing_specific_lobbying_issues'</span>: <span class="st">"public debt"</span>,</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">'filing_year'</span>: [<span class="st">'2008'</span>, <span class="st">'2009'</span>]</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<p><a href="lda_results.json">View LDA results</a></p>
+<p><a href="lda_results.json" target="_blank">View LDA results</a></p>
 </section>
 <section id="search-term-debt-ceiling" class="level3">
 <h3 class="anchored" data-anchor-id="search-term-debt-ceiling">Search Term: “Debt Ceiling”</h3>
-<div id="18e07a32" class="cell" data-execution_count="2">
+<div id="527b2d5f" class="cell" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>params1 <span class="op">=</span> {</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">'filing_specific_lobbying_issues'</span>: [<span class="st">"debt limit"</span>, <span class="st">"debt ceiling"</span>],</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'filing_year'</span>: [<span class="st">'2008'</span>,<span class="st">'2009'</span>]</span>
@@ -180,7 +180,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">'filing_year'</span>: [<span class="st">'2008'</span>,<span class="st">'2009'</span>]</span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
-<p><a href="lda_results3.json">View LDA results</a></p>
+<p><a href="lda_results3.json" target="_blank">View LDA results</a></p>
 </section>
 </section>
 
@@ -273,6 +273,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

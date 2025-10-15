@@ -4,6 +4,7 @@ author: "Wilhelm"
 format: html
 editor: visual
 jupyter: python3
+link-external-newwindow: true
 ---
 
 ## Public Debt Limit
@@ -61,7 +62,7 @@ params = {
 }
 ```
 
-[View LDA results](lda_results.json)
+<a href="lda_results.json" target="_blank">View LDA results</a>
 
 ### Search Term: "Debt Ceiling"
 
@@ -78,4 +79,4 @@ params2 = {
 }
 ```
 
-[View LDA results](lda_results3.json)
+<a href="lda_results3.json" target="_blank">View LDA results</a>
