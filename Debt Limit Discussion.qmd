@@ -11,7 +11,8 @@ jupyter: python3
 Why have a debt ceiling?
 
 -   Existed since founding of US federal government
--   Congressional artifact that frequently gets surpassed and muddies budget negotiations
+-   Congressional artifact that frequently gets raised
+-   Often muddies budget negotiations
 -   Doesn't constrain spending
 
 Why does it still persist?
@@ -23,9 +24,11 @@ Why does it still persist?
 -   Particularly those with a vested interest in limiting the growth of future tax revenues
 -   What are some other long-lived organizations who would want to limit the amount of future capital value the government could expropriate?
     -   Businesses
+        -   Small/Large?
     -   Corporations
-    -   Senior citizens?
-    -   Domestic or Foreign?
+    -   Future Generations
+        -   Senior citizens?
+    -   Domestic or Foreign
 
 ## **Who are these interest groups?**
 
@@ -39,7 +42,17 @@ Here is a list of [Lobbying Issue Codes](https://lda.congress.gov/LD/help/defaul
 
 [REST API Documentation](https://lda.senate.gov/api/redoc/v1/)
 
-### Public Debt
+## Examples
+
+[Entitlement Protection Orgs](https://lda.senate.gov/filings/public/filing/ff9e00a4-31f6-4647-a1c1-17375690a48a/print/)
+
+[Chamber of Commerce](https://lda.senate.gov/filings/public/filing/bbeeedf7-14ec-47de-91fa-07380d2bb851/print/)
+
+[AFL-CIO](https://lda.senate.gov/filings/public/filing/a544ae3b-6fb6-41ad-ae15-cecf1f6f77e0/print/)
+
+[oddball secret orgs](https://lda.senate.gov/filings/public/filing/2ad5a568-ff84-492c-b175-9be5df618e7e/print/)
+
+### Search Term: "Public Debt"
 
 ```{python, eval=false}
 params = {
@@ -48,15 +61,9 @@ params = {
 }
 ```
 
-**Executable Code Below**
-
-```{python}
-import lda_query
-```
-
 [View LDA results](lda_results.json)
 
-### Debt Ceiling
+### Search Term: "Debt Ceiling"
 
 ```{python, eval=false}
 params1 = {
@@ -69,10 +76,6 @@ params2 = {
     'description': ["debt limit", "debt ceiling"],
     'filing_year': ['2008','2009']
 }
-```
-
-```{python}
-import lda_query3
 ```
 
 [View LDA results](lda_results3.json)

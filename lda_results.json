@@ -334,21 +334,6 @@
             },
             {
               "lobbyist": {
-                "id": 39235,
-                "prefix": null,
-                "prefix_display": null,
-                "first_name": "CATHERINE",
-                "nickname": null,
-                "middle_name": null,
-                "last_name": "HAZLEWOOD",
-                "suffix": null,
-                "suffix_display": null
-              },
-              "covered_position": null,
-              "new": false
-            },
-            {
-              "lobbyist": {
                 "id": 16891,
                 "prefix": null,
                 "prefix_display": null,
@@ -446,6 +431,21 @@
                 "nickname": null,
                 "middle_name": null,
                 "last_name": "WOGLOM",
+                "suffix": null,
+                "suffix_display": null
+              },
+              "covered_position": null,
+              "new": false
+            },
+            {
+              "lobbyist": {
+                "id": 150971,
+                "prefix": null,
+                "prefix_display": null,
+                "first_name": "CATHERINE",
+                "nickname": null,
+                "middle_name": "HAZLEWOOD",
+                "last_name": "BARRETT",
                 "suffix": null,
                 "suffix_display": null
               },
@@ -633,21 +633,6 @@
             },
             {
               "lobbyist": {
-                "id": 39235,
-                "prefix": null,
-                "prefix_display": null,
-                "first_name": "CATHERINE",
-                "nickname": null,
-                "middle_name": null,
-                "last_name": "HAZLEWOOD",
-                "suffix": null,
-                "suffix_display": null
-              },
-              "covered_position": null,
-              "new": false
-            },
-            {
-              "lobbyist": {
                 "id": 16891,
                 "prefix": null,
                 "prefix_display": null,
@@ -745,6 +730,21 @@
                 "nickname": null,
                 "middle_name": null,
                 "last_name": "WOGLOM",
+                "suffix": null,
+                "suffix_display": null
+              },
+              "covered_position": null,
+              "new": false
+            },
+            {
+              "lobbyist": {
+                "id": 150971,
+                "prefix": null,
+                "prefix_display": null,
+                "first_name": "CATHERINE",
+                "nickname": null,
+                "middle_name": "HAZLEWOOD",
+                "last_name": "BARRETT",
                 "suffix": null,
                 "suffix_display": null
               },
@@ -887,13 +887,13 @@
             },
             {
               "lobbyist": {
-                "id": 39235,
+                "id": 150971,
                 "prefix": null,
                 "prefix_display": null,
                 "first_name": "CATHERINE",
                 "nickname": null,
-                "middle_name": null,
-                "last_name": "HAZLEWOOD",
+                "middle_name": "HAZLEWOOD",
+                "last_name": "BARRETT",
                 "suffix": null,
                 "suffix_display": null
               },
@@ -1200,21 +1200,6 @@
             },
             {
               "lobbyist": {
-                "id": 39235,
-                "prefix": null,
-                "prefix_display": null,
-                "first_name": "CATHERINE",
-                "nickname": null,
-                "middle_name": null,
-                "last_name": "HAZLEWOOD",
-                "suffix": null,
-                "suffix_display": null
-              },
-              "covered_position": null,
-              "new": false
-            },
-            {
-              "lobbyist": {
                 "id": 16891,
                 "prefix": null,
                 "prefix_display": null,
@@ -1317,6 +1302,21 @@
               },
               "covered_position": null,
               "new": true
+            },
+            {
+              "lobbyist": {
+                "id": 150971,
+                "prefix": null,
+                "prefix_display": null,
+                "first_name": "CATHERINE",
+                "nickname": null,
+                "middle_name": "HAZLEWOOD",
+                "last_name": "BARRETT",
+                "suffix": null,
+                "suffix_display": null
+              },
+              "covered_position": null,
+              "new": false
             }
           ],
           "government_entities": [
@@ -20350,21 +20350,6 @@
             },
             {
               "lobbyist": {
-                "id": 39235,
-                "prefix": null,
-                "prefix_display": null,
-                "first_name": "CATHERINE",
-                "nickname": null,
-                "middle_name": null,
-                "last_name": "HAZLEWOOD",
-                "suffix": null,
-                "suffix_display": null
-              },
-              "covered_position": null,
-              "new": false
-            },
-            {
-              "lobbyist": {
                 "id": 23667,
                 "prefix": null,
                 "prefix_display": null,
@@ -20417,6 +20402,21 @@
                 "nickname": null,
                 "middle_name": null,
                 "last_name": "WOGLOM",
+                "suffix": null,
+                "suffix_display": null
+              },
+              "covered_position": null,
+              "new": false
+            },
+            {
+              "lobbyist": {
+                "id": 150971,
+                "prefix": null,
+                "prefix_display": null,
+                "first_name": "CATHERINE",
+                "nickname": null,
+                "middle_name": "HAZLEWOOD",
+                "last_name": "BARRETT",
                 "suffix": null,
                 "suffix_display": null
               },
@@ -20857,21 +20857,6 @@
             },
             {
               "lobbyist": {
-                "id": 39235,
-                "prefix": null,
-                "prefix_display": null,
-                "first_name": "CATHERINE",
-                "nickname": null,
-                "middle_name": null,
-                "last_name": "HAZLEWOOD",
-                "suffix": null,
-                "suffix_display": null
-              },
-              "covered_position": null,
-              "new": false
-            },
-            {
-              "lobbyist": {
                 "id": 16891,
                 "prefix": null,
                 "prefix_display": null,
@@ -20984,6 +20969,21 @@
                 "nickname": null,
                 "middle_name": null,
                 "last_name": "WOLOSIN",
+                "suffix": null,
+                "suffix_display": null
+              },
+              "covered_position": null,
+              "new": false
+            },
+            {
+              "lobbyist": {
+                "id": 150971,
+                "prefix": null,
+                "prefix_display": null,
+                "first_name": "CATHERINE",
+                "nickname": null,
+                "middle_name": "HAZLEWOOD",
+                "last_name": "BARRETT",
                 "suffix": null,
                 "suffix_display": null
               },
@@ -22745,21 +22745,6 @@
             },
             {
               "lobbyist": {
-                "id": 39235,
-                "prefix": null,
-                "prefix_display": null,
-                "first_name": "CATHERINE",
-                "nickname": null,
-                "middle_name": null,
-                "last_name": "HAZLEWOOD",
-                "suffix": null,
-                "suffix_display": null
-              },
-              "covered_position": null,
-              "new": false
-            },
-            {
-              "lobbyist": {
                 "id": 16891,
                 "prefix": null,
                 "prefix_display": null,
@@ -22857,6 +22842,21 @@
                 "nickname": null,
                 "middle_name": null,
                 "last_name": "WOGLOM",
+                "suffix": null,
+                "suffix_display": null
+              },
+              "covered_position": null,
+              "new": false
+            },
+            {
+              "lobbyist": {
+                "id": 150971,
+                "prefix": null,
+                "prefix_display": null,
+                "first_name": "CATHERINE",
+                "nickname": null,
+                "middle_name": "HAZLEWOOD",
+                "last_name": "BARRETT",
                 "suffix": null,
                 "suffix_display": null
               },
@@ -23059,21 +23059,6 @@
             },
             {
               "lobbyist": {
-                "id": 39235,
-                "prefix": null,
-                "prefix_display": null,
-                "first_name": "CATHERINE",
-                "nickname": null,
-                "middle_name": null,
-                "last_name": "HAZLEWOOD",
-                "suffix": null,
-                "suffix_display": null
-              },
-              "covered_position": null,
-              "new": false
-            },
-            {
-              "lobbyist": {
                 "id": 16891,
                 "prefix": null,
                 "prefix_display": null,
@@ -23171,6 +23156,21 @@
                 "nickname": null,
                 "middle_name": null,
                 "last_name": "WOGLOM",
+                "suffix": null,
+                "suffix_display": null
+              },
+              "covered_position": null,
+              "new": false
+            },
+            {
+              "lobbyist": {
+                "id": 150971,
+                "prefix": null,
+                "prefix_display": null,
+                "first_name": "CATHERINE",
+                "nickname": null,
+                "middle_name": "HAZLEWOOD",
+                "last_name": "BARRETT",
                 "suffix": null,
                 "suffix_display": null
               },
@@ -23313,13 +23313,13 @@
             },
             {
               "lobbyist": {
-                "id": 39235,
+                "id": 150971,
                 "prefix": null,
                 "prefix_display": null,
                 "first_name": "CATHERINE",
                 "nickname": null,
-                "middle_name": null,
-                "last_name": "HAZLEWOOD",
+                "middle_name": "HAZLEWOOD",
+                "last_name": "BARRETT",
                 "suffix": null,
                 "suffix_display": null
               },
@@ -23611,21 +23611,6 @@
             },
             {
               "lobbyist": {
-                "id": 39235,
-                "prefix": null,
-                "prefix_display": null,
-                "first_name": "CATHERINE",
-                "nickname": null,
-                "middle_name": null,
-                "last_name": "HAZLEWOOD",
-                "suffix": null,
-                "suffix_display": null
-              },
-              "covered_position": null,
-              "new": false
-            },
-            {
-              "lobbyist": {
                 "id": 16891,
                 "prefix": null,
                 "prefix_display": null,
@@ -23743,6 +23728,21 @@
               },
               "covered_position": null,
               "new": true
+            },
+            {
+              "lobbyist": {
+                "id": 150971,
+                "prefix": null,
+                "prefix_display": null,
+                "first_name": "CATHERINE",
+                "nickname": null,
+                "middle_name": "HAZLEWOOD",
+                "last_name": "BARRETT",
+                "suffix": null,
+                "suffix_display": null
+              },
+              "covered_position": null,
+              "new": false
             }
           ],
           "government_entities": [
@@ -53260,21 +53260,6 @@
             },
             {
               "lobbyist": {
-                "id": 39235,
-                "prefix": null,
-                "prefix_display": null,
-                "first_name": "CATHERINE",
-                "nickname": null,
-                "middle_name": null,
-                "last_name": "HAZLEWOOD",
-                "suffix": null,
-                "suffix_display": null
-              },
-              "covered_position": null,
-              "new": false
-            },
-            {
-              "lobbyist": {
                 "id": 16891,
                 "prefix": null,
                 "prefix_display": null,
@@ -53387,6 +53372,21 @@
                 "nickname": null,
                 "middle_name": null,
                 "last_name": "WOLOSIN",
+                "suffix": null,
+                "suffix_display": null
+              },
+              "covered_position": null,
+              "new": false
+            },
+            {
+              "lobbyist": {
+                "id": 150971,
+                "prefix": null,
+                "prefix_display": null,
+                "first_name": "CATHERINE",
+                "nickname": null,
+                "middle_name": "HAZLEWOOD",
+                "last_name": "BARRETT",
                 "suffix": null,
                 "suffix_display": null
               },
@@ -53618,21 +53618,6 @@
             },
             {
               "lobbyist": {
-                "id": 39235,
-                "prefix": null,
-                "prefix_display": null,
-                "first_name": "CATHERINE",
-                "nickname": null,
-                "middle_name": null,
-                "last_name": "HAZLEWOOD",
-                "suffix": null,
-                "suffix_display": null
-              },
-              "covered_position": null,
-              "new": false
-            },
-            {
-              "lobbyist": {
                 "id": 23667,
                 "prefix": null,
                 "prefix_display": null,
@@ -53685,6 +53670,21 @@
                 "nickname": null,
                 "middle_name": null,
                 "last_name": "WOGLOM",
+                "suffix": null,
+                "suffix_display": null
+              },
+              "covered_position": null,
+              "new": false
+            },
+            {
+              "lobbyist": {
+                "id": 150971,
+                "prefix": null,
+                "prefix_display": null,
+                "first_name": "CATHERINE",
+                "nickname": null,
+                "middle_name": "HAZLEWOOD",
+                "last_name": "BARRETT",
                 "suffix": null,
                 "suffix_display": null
               },
